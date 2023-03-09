@@ -7,23 +7,88 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C1E996829B85D1B00358805 /* UsedTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1E996729B85D1B00358805 /* UsedTimer.swift */; };
+		1C1E996A29B85E0600358805 /* ExerciseTimer-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1E996929B85E0600358805 /* ExerciseTimer-CoreDataHelpers.swift */; };
+		1C1E996C29B85E3500358805 /* ScreenTimeTimer-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1E996B29B85E3500358805 /* ScreenTimeTimer-CoreDataHelpers.swift */; };
 		1C64E4D329B6A5750033CF25 /* ScreenTimeEarnerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C64E4D229B6A5750033CF25 /* ScreenTimeEarnerApp.swift */; };
 		1C64E4D529B6A5750033CF25 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C64E4D429B6A5750033CF25 /* Persistence.swift */; };
 		1C64E4D829B6A5750033CF25 /* ScreenTimeEarner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1C64E4D629B6A5750033CF25 /* ScreenTimeEarner.xcdatamodeld */; };
-		1C64E4DA29B6A5750033CF25 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C64E4D929B6A5750033CF25 /* ContentView.swift */; };
+		1C64E4DA29B6A5750033CF25 /* ContentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C64E4D929B6A5750033CF25 /* ContentScreen.swift */; };
 		1C64E4DC29B6A5760033CF25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C64E4DB29B6A5760033CF25 /* Assets.xcassets */; };
 		1C64E4E029B6A5760033CF25 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C64E4DF29B6A5760033CF25 /* Preview Assets.xcassets */; };
+		1C64E4E829B6C5BE0033CF25 /* ActivityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C64E4E729B6C5BE0033CF25 /* ActivityType.swift */; };
+		1C64E4ED29B6CA9D0033CF25 /* ProgressViewStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C64E4EC29B6CA9D0033CF25 /* ProgressViewStyles.swift */; };
+		1C64E4F229B6DB120033CF25 /* TimeEvent-CoreDaataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C64E4F129B6DB120033CF25 /* TimeEvent-CoreDaataHelpers.swift */; };
+		1C95D16529B78D2D00730B6A /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C95D16429B78D2D00730B6A /* TimerView.swift */; };
+		1C95D16829B79C6100730B6A /* CurrentTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C95D16729B79C6100730B6A /* CurrentTimer.swift */; };
+		1C95D16A29B7A6CB00730B6A /* ActivityList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C95D16929B7A6CB00730B6A /* ActivityList.swift */; };
+		1C95D16C29B7ACB400730B6A /* ActivityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C95D16B29B7ACB400730B6A /* ActivityCell.swift */; };
+		1C95D17429B7ADA900730B6A /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C95D16D29B7ADA900730B6A /* ColorExtension.swift */; };
+		1C95D17529B7ADA900730B6A /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C95D16E29B7ADA900730B6A /* StringExtension.swift */; };
+		1C95D17629B7ADA900730B6A /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C95D16F29B7ADA900730B6A /* DoubleExtension.swift */; };
+		1C95D17729B7ADA900730B6A /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C95D17029B7ADA900730B6A /* ImageExtension.swift */; };
+		1C95D17829B7ADA900730B6A /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C95D17129B7ADA900730B6A /* IntExtension.swift */; };
+		1C95D17929B7ADA900730B6A /* DateExtansion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C95D17229B7ADA900730B6A /* DateExtansion.swift */; };
+		1C95D17A29B7ADA900730B6A /* CGFloatExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C95D17329B7ADA900730B6A /* CGFloatExtension.swift */; };
+		1C95D17D29B7C2C800730B6A /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C95D17C29B7C2C800730B6A /* Notifications.swift */; };
+		1CAA49AD29B7E65E00CB15F6 /* TimerProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAA49AC29B7E65E00CB15F6 /* TimerProgressView.swift */; };
+		1CAA49B029B8283900CB15F6 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CAA49AF29B8283900CB15F6 /* CloudKit.framework */; };
+		1CAA49B429B82B3200CB15F6 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAA49B329B82B3200CB15F6 /* Config.swift */; };
+		1CAA49B629B82E9D00CB15F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAA49B529B82E9D00CB15F6 /* SceneDelegate.swift */; };
+		1CAA49B929B82FA400CB15F6 /* CloudSharingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAA49B829B82FA400CB15F6 /* CloudSharingController.swift */; };
+		1CAA49BB29B8381600CB15F6 /* ChildEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAA49BA29B8381500CB15F6 /* ChildEntryView.swift */; };
+		1CAA49BD29B83BF400CB15F6 /* TextFieldStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAA49BC29B83BF400CB15F6 /* TextFieldStyles.swift */; };
+		1CAA49BF29B8433900CB15F6 /* Child-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAA49BE29B8433900CB15F6 /* Child-CoreDataHelpers.swift */; };
+		1CAA49C129B846B400CB15F6 /* ActivityTimer-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAA49C029B846B400CB15F6 /* ActivityTimer-CoreDataHelpers.swift */; };
+		1CAA49C329B8470500CB15F6 /* TimerStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAA49C229B8470500CB15F6 /* TimerStatus.swift */; };
+		1CFAE5B829B8EE9B008D0AE3 /* TimerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFAE5B729B8EE9B008D0AE3 /* TimerScreen.swift */; };
+		1CFAE5BA29B8EEC5008D0AE3 /* ChildSelectScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFAE5B929B8EEC5008D0AE3 /* ChildSelectScreen.swift */; };
+		1CFAE5BC29B9510A008D0AE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFAE5BB29B9510A008D0AE3 /* AppDelegate.swift */; };
+		1CFAE5BE29B97633008D0AE3 /* TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFAE5BD29B97633008D0AE3 /* TimerModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C1E996729B85D1B00358805 /* UsedTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsedTimer.swift; sourceTree = "<group>"; };
+		1C1E996929B85E0600358805 /* ExerciseTimer-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ExerciseTimer-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		1C1E996B29B85E3500358805 /* ScreenTimeTimer-CoreDataHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ScreenTimeTimer-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		1C64E4CF29B6A5750033CF25 /* ScreenTimeEarner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenTimeEarner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C64E4D229B6A5750033CF25 /* ScreenTimeEarnerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTimeEarnerApp.swift; sourceTree = "<group>"; };
 		1C64E4D429B6A5750033CF25 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		1C64E4D729B6A5750033CF25 /* ScreenTimeEarner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ScreenTimeEarner.xcdatamodel; sourceTree = "<group>"; };
-		1C64E4D929B6A5750033CF25 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1C64E4D929B6A5750033CF25 /* ContentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentScreen.swift; sourceTree = "<group>"; };
 		1C64E4DB29B6A5760033CF25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C64E4DD29B6A5760033CF25 /* ScreenTimeEarner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ScreenTimeEarner.entitlements; sourceTree = "<group>"; };
 		1C64E4DF29B6A5760033CF25 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1C64E4E729B6C5BE0033CF25 /* ActivityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityType.swift; sourceTree = "<group>"; };
+		1C64E4EC29B6CA9D0033CF25 /* ProgressViewStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewStyles.swift; sourceTree = "<group>"; };
+		1C64E4F129B6DB120033CF25 /* TimeEvent-CoreDaataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeEvent-CoreDaataHelpers.swift"; sourceTree = "<group>"; };
+		1C95D16429B78D2D00730B6A /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		1C95D16729B79C6100730B6A /* CurrentTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentTimer.swift; sourceTree = "<group>"; };
+		1C95D16929B7A6CB00730B6A /* ActivityList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityList.swift; sourceTree = "<group>"; };
+		1C95D16B29B7ACB400730B6A /* ActivityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCell.swift; sourceTree = "<group>"; };
+		1C95D16D29B7ADA900730B6A /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		1C95D16E29B7ADA900730B6A /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		1C95D16F29B7ADA900730B6A /* DoubleExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
+		1C95D17029B7ADA900730B6A /* ImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
+		1C95D17129B7ADA900730B6A /* IntExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
+		1C95D17229B7ADA900730B6A /* DateExtansion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtansion.swift; sourceTree = "<group>"; };
+		1C95D17329B7ADA900730B6A /* CGFloatExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFloatExtension.swift; sourceTree = "<group>"; };
+		1C95D17C29B7C2C800730B6A /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		1CAA49AC29B7E65E00CB15F6 /* TimerProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerProgressView.swift; sourceTree = "<group>"; };
+		1CAA49AF29B8283900CB15F6 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/System/Library/Frameworks/CloudKit.framework; sourceTree = DEVELOPER_DIR; };
+		1CAA49B129B8284100CB15F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1CAA49B329B82B3200CB15F6 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		1CAA49B529B82E9D00CB15F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1CAA49B829B82FA400CB15F6 /* CloudSharingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudSharingController.swift; sourceTree = "<group>"; };
+		1CAA49BA29B8381500CB15F6 /* ChildEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildEntryView.swift; sourceTree = "<group>"; };
+		1CAA49BC29B83BF400CB15F6 /* TextFieldStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldStyles.swift; sourceTree = "<group>"; };
+		1CAA49BE29B8433900CB15F6 /* Child-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Child-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		1CAA49C029B846B400CB15F6 /* ActivityTimer-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ActivityTimer-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		1CAA49C229B8470500CB15F6 /* TimerStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerStatus.swift; sourceTree = "<group>"; };
+		1CFAE5B729B8EE9B008D0AE3 /* TimerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerScreen.swift; sourceTree = "<group>"; };
+		1CFAE5B929B8EEC5008D0AE3 /* ChildSelectScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildSelectScreen.swift; sourceTree = "<group>"; };
+		1CFAE5BB29B9510A008D0AE3 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1CFAE5BD29B97633008D0AE3 /* TimerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CAA49B029B8283900CB15F6 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +108,7 @@
 			children = (
 				1C64E4D129B6A5750033CF25 /* ScreenTimeEarner */,
 				1C64E4D029B6A5750033CF25 /* Products */,
+				1CAA49AE29B8283800CB15F6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,9 +123,20 @@
 		1C64E4D129B6A5750033CF25 /* ScreenTimeEarner */ = {
 			isa = PBXGroup;
 			children = (
+				1CAA49B129B8284100CB15F6 /* Info.plist */,
 				1C64E4D229B6A5750033CF25 /* ScreenTimeEarnerApp.swift */,
-				1C64E4D429B6A5750033CF25 /* Persistence.swift */,
-				1C64E4D929B6A5750033CF25 /* ContentView.swift */,
+				1CFAE5BB29B9510A008D0AE3 /* AppDelegate.swift */,
+				1CAA49B529B82E9D00CB15F6 /* SceneDelegate.swift */,
+				1CAA49B229B82B0700CB15F6 /* Config */,
+				1C64E4EA29B6C7950033CF25 /* Data */,
+				1C64E4E629B6C5760033CF25 /* Enums */,
+				1C64E4EE29B6D64F0033CF25 /* Extensions */,
+				1C95D17B29B7C2B300730B6A /* Helpers */,
+				1C95D16629B79C5000730B6A /* Models */,
+				1C64E4E929B6C7840033CF25 /* Screens */,
+				1CAA49B729B82F0000CB15F6 /* Share */,
+				1C95D16329B78CFF00730B6A /* Views */,
+				1C64E4EB29B6CA790033CF25 /* ViewStyles */,
 				1C64E4DB29B6A5760033CF25 /* Assets.xcassets */,
 				1C64E4DD29B6A5760033CF25 /* ScreenTimeEarner.entitlements */,
 				1C64E4D629B6A5750033CF25 /* ScreenTimeEarner.xcdatamodeld */,
@@ -73,6 +151,115 @@
 				1C64E4DF29B6A5760033CF25 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1C64E4E629B6C5760033CF25 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				1C64E4E729B6C5BE0033CF25 /* ActivityType.swift */,
+				1CAA49C229B8470500CB15F6 /* TimerStatus.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		1C64E4E929B6C7840033CF25 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				1C64E4D929B6A5750033CF25 /* ContentScreen.swift */,
+				1CFAE5B729B8EE9B008D0AE3 /* TimerScreen.swift */,
+				1CFAE5B929B8EEC5008D0AE3 /* ChildSelectScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		1C64E4EA29B6C7950033CF25 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				1C64E4D429B6A5750033CF25 /* Persistence.swift */,
+				1C64E4F129B6DB120033CF25 /* TimeEvent-CoreDaataHelpers.swift */,
+				1CAA49BE29B8433900CB15F6 /* Child-CoreDataHelpers.swift */,
+				1CAA49C029B846B400CB15F6 /* ActivityTimer-CoreDataHelpers.swift */,
+				1C1E996929B85E0600358805 /* ExerciseTimer-CoreDataHelpers.swift */,
+				1C1E996B29B85E3500358805 /* ScreenTimeTimer-CoreDataHelpers.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		1C64E4EB29B6CA790033CF25 /* ViewStyles */ = {
+			isa = PBXGroup;
+			children = (
+				1C64E4EC29B6CA9D0033CF25 /* ProgressViewStyles.swift */,
+				1CAA49BC29B83BF400CB15F6 /* TextFieldStyles.swift */,
+			);
+			path = ViewStyles;
+			sourceTree = "<group>";
+		};
+		1C64E4EE29B6D64F0033CF25 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1C95D17329B7ADA900730B6A /* CGFloatExtension.swift */,
+				1C95D16D29B7ADA900730B6A /* ColorExtension.swift */,
+				1C95D17229B7ADA900730B6A /* DateExtansion.swift */,
+				1C95D16F29B7ADA900730B6A /* DoubleExtension.swift */,
+				1C95D17029B7ADA900730B6A /* ImageExtension.swift */,
+				1C95D17129B7ADA900730B6A /* IntExtension.swift */,
+				1C95D16E29B7ADA900730B6A /* StringExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1C95D16329B78CFF00730B6A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1C95D16429B78D2D00730B6A /* TimerView.swift */,
+				1C95D16929B7A6CB00730B6A /* ActivityList.swift */,
+				1C95D16B29B7ACB400730B6A /* ActivityCell.swift */,
+				1CAA49AC29B7E65E00CB15F6 /* TimerProgressView.swift */,
+				1CAA49BA29B8381500CB15F6 /* ChildEntryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1C95D16629B79C5000730B6A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1C95D16729B79C6100730B6A /* CurrentTimer.swift */,
+				1C1E996729B85D1B00358805 /* UsedTimer.swift */,
+				1CFAE5BD29B97633008D0AE3 /* TimerModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1C95D17B29B7C2B300730B6A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1C95D17C29B7C2C800730B6A /* Notifications.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		1CAA49AE29B8283800CB15F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CAA49AF29B8283900CB15F6 /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1CAA49B229B82B0700CB15F6 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				1CAA49B329B82B3200CB15F6 /* Config.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		1CAA49B729B82F0000CB15F6 /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				1CAA49B829B82FA400CB15F6 /* CloudSharingController.swift */,
+			);
+			path = Share;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,10 +332,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C1E996A29B85E0600358805 /* ExerciseTimer-CoreDataHelpers.swift in Sources */,
+				1C95D17D29B7C2C800730B6A /* Notifications.swift in Sources */,
+				1CAA49BD29B83BF400CB15F6 /* TextFieldStyles.swift in Sources */,
+				1C95D17A29B7ADA900730B6A /* CGFloatExtension.swift in Sources */,
+				1CAA49C129B846B400CB15F6 /* ActivityTimer-CoreDataHelpers.swift in Sources */,
+				1C95D17629B7ADA900730B6A /* DoubleExtension.swift in Sources */,
+				1C95D16529B78D2D00730B6A /* TimerView.swift in Sources */,
+				1C95D16A29B7A6CB00730B6A /* ActivityList.swift in Sources */,
 				1C64E4D829B6A5750033CF25 /* ScreenTimeEarner.xcdatamodeld in Sources */,
+				1C64E4E829B6C5BE0033CF25 /* ActivityType.swift in Sources */,
+				1C1E996829B85D1B00358805 /* UsedTimer.swift in Sources */,
+				1CAA49B629B82E9D00CB15F6 /* SceneDelegate.swift in Sources */,
+				1CAA49BB29B8381600CB15F6 /* ChildEntryView.swift in Sources */,
+				1CFAE5B829B8EE9B008D0AE3 /* TimerScreen.swift in Sources */,
+				1C95D16829B79C6100730B6A /* CurrentTimer.swift in Sources */,
+				1CFAE5BA29B8EEC5008D0AE3 /* ChildSelectScreen.swift in Sources */,
 				1C64E4D329B6A5750033CF25 /* ScreenTimeEarnerApp.swift in Sources */,
-				1C64E4DA29B6A5750033CF25 /* ContentView.swift in Sources */,
+				1CAA49B929B82FA400CB15F6 /* CloudSharingController.swift in Sources */,
+				1C1E996C29B85E3500358805 /* ScreenTimeTimer-CoreDataHelpers.swift in Sources */,
+				1C64E4DA29B6A5750033CF25 /* ContentScreen.swift in Sources */,
 				1C64E4D529B6A5750033CF25 /* Persistence.swift in Sources */,
+				1C95D17929B7ADA900730B6A /* DateExtansion.swift in Sources */,
+				1C95D17529B7ADA900730B6A /* StringExtension.swift in Sources */,
+				1C64E4F229B6DB120033CF25 /* TimeEvent-CoreDaataHelpers.swift in Sources */,
+				1C64E4ED29B6CA9D0033CF25 /* ProgressViewStyles.swift in Sources */,
+				1C95D17829B7ADA900730B6A /* IntExtension.swift in Sources */,
+				1C95D16C29B7ACB400730B6A /* ActivityCell.swift in Sources */,
+				1CAA49B429B82B3200CB15F6 /* Config.swift in Sources */,
+				1C95D17429B7ADA900730B6A /* ColorExtension.swift in Sources */,
+				1CAA49BF29B8433900CB15F6 /* Child-CoreDataHelpers.swift in Sources */,
+				1CAA49C329B8470500CB15F6 /* TimerStatus.swift in Sources */,
+				1C95D17729B7ADA900730B6A /* ImageExtension.swift in Sources */,
+				1CFAE5BE29B97633008D0AE3 /* TimerModel.swift in Sources */,
+				1CFAE5BC29B9510A008D0AE3 /* AppDelegate.swift in Sources */,
+				1CAA49AD29B7E65E00CB15F6 /* TimerProgressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,9 +492,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ScreenTimeEarner/Preview Content\"";
 				DEVELOPMENT_TEAM = 8ZFLY6KKY9;
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScreenTimeEarner/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -295,7 +514,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = PaytonSides.ScreenTimeEarner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,9 +533,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ScreenTimeEarner/Preview Content\"";
 				DEVELOPMENT_TEAM = 8ZFLY6KKY9;
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScreenTimeEarner/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -333,7 +555,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = PaytonSides.ScreenTimeEarner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
